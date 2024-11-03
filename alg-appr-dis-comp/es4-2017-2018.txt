@@ -1,0 +1,109 @@
+
+1.1
+awaiting rappresenta lo stato del processo che
+detiene il token ma che non lo sta usando per 
+la critical section. infatti, il processo è in
+attesa di passare il token ad altri processi che
+lo richiedono.
+
+1.2
+se awaiting = true
+
+allora b)
+
+assumiamo per assurdo che la coda non sia vuota
+allora il token deve essere per forza passato a
+un altro processo.
+
+ma se awaiting è true vuol dire che la condizione
+nel while (Q is not empty) era falsa.
+contraddizione.
+
+allora a)
+
+assumiamo per assurdo che awaiting = true e il
+processo non ha il token.
+
+ma se non abbiamo il token vuol dire che l'ha
+passato a un altro processo e che quindi Q
+non era vuota.
+
+questo contraddice b).
+
+1.3
+
+visto che la linea 32 viene eseguita awaiting
+viene messo a false. quindi per la seconda
+richiesta non entra nell'if
+
+di conseguenza non si genera un altro token
+ma prima o poi il token verrà spedito al processo
+k. visto che la richiesta è stata spedita a
+tutti i processi, prima o poi il processo l
+riceverà il token
+
+1.4
+
+in questo caso, eseguendo fino a linea 32
+inclusa, awaiting non viene messo a false
+
+di conseguenza la seconda richiesta può
+entrare nell'if e mandare il token.
+
+questo genera errori in quando stiamo
+duplicando il token.
+
+2.1
+
+dopo la ricezione del token, il processo invia
+un messaggio ACK al processo che gliel'ha inviato
+
+quindi il processo aspetterà massimo 2T di tempo
+da quando invia il token per ricevere l'ACK
+
+2.2
+
+tra linea 16 e 17:
+send ACK to process k
+
+dopo della send a linea 22 e 33
+set_timer(T)
+Wait until ACK is received or Timeout(T) occours then
+if ACK received do
+  go on with the algorithm
+if Timeout occurs do
+  send (tail-of-Q, last) to head-of-Q
+  goto "linea del set_timer"
+
+
+2.3
+
+se il sistema non è sicrono, dobbiamo scegliere
+un bound abbastanza alto da assicurarci che il
+processo riceva il token e che invii l'ack
+
+comunque può capitare che il bound scelto non
+sia abbastanza e che quindi si generino più token
+e che quindi due processi si ritrovino con il token
+ad operare sulla CS. Di conseguenza manca la ME1
+cioè la proprietà di safety
+
+2.4
+
+
+
+send (tail-Q, last, req[head-Q]) to head-Q
+
+dopo recv token
+
+send(ACK, last[j])
+if token.3 != req[j]
+  discard
+
+
+2.5
+
+
+
+
+
