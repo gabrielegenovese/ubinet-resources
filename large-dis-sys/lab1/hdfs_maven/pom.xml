@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>bigdata</groupId>
+  <artifactId>minimal-skeleton</artifactId>
+  <version>0.0.1</version>
+  <name>Minimal Bigdata app skeleton</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.hadoop</groupId>
+  		<artifactId>hadoop-common</artifactId>
+  		<version>3.3.1</version>
+  	</dependency>
+  </dependencies>
+  <properties>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
+ </properties>	
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-jar-plugin</artifactId>
+  			<version>3.0.2</version>
+  			<configuration>
+  				<archive>
+  					<manifest>
+  						<mainClass>hdfs.MyApp</mainClass>
+  					</manifest>
+  				</archive>
+  			</configuration>
+  		</plugin>
+		  <plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>exec-maven-plugin</artifactId>
+			<version>1.6.0</version>
+			<configuration>
+				<mainClass>hdfs.MyApp</mainClass>
+			</configuration>
+	</plugin>
+  	</plugins>
+  </build>
+</project>

@@ -1,0 +1,63 @@
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: namenode
+    restart: always
+    ports:
+      - 9870:9870
+      - 9000:9000
+    volumes:
+      - hadoop_namenode:/hadoop/dfs/name
+      - ./data1:/hadoop/labs # to mount your local path to the container
+    environment:
+      - CLUSTER_NAME=test
+    env_file:
+      - ./hadoop.env
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: datanode
+    hostname: archpazzo #add here the hostname of the machine where the container is running 
+    restart: always
+    ports:
+      - 9864:9864
+    volumes:
+      - hadoop_datanode:/hadoop/dfs/data
+    environment:
+      SERVICE_PRECONDITION: "namenode:9870"
+    env_file:
+      - ./hadoop.env
+  
+      #  datanode2:
+      #    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+      #    container_name: datanode2
+      #    hostname: d2 #add here the hostname of the machine where the container is running 
+      #    restart: always
+      #    ports:
+      #      - 9865:9864
+      #    volumes:
+      #      - hadoop_datanode2:/hadoop/dfs/data2
+      #    environment:
+      #      SERVICE_PRECONDITION: "namenode:9870"
+      #    env_file:
+      #      - ./hadoop.env
+      #  
+      #  datanode3:
+      #    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+      #    container_name: datanode3
+      #    hostname: d3 #add here the hostname of the machine where the container is running 
+      #    restart: always
+      #    ports:
+      #      - 9866:9864
+      #    volumes:
+      #      - hadoop_datanode3:/hadoop/dfs/data3
+      #    environment:
+      #      SERVICE_PRECONDITION: "namenode:9870"
+      #    env_file:
+      #      - ./hadoop.env
+
+volumes:
+  hadoop_namenode:
+  hadoop_datanode:
+  hadoop_datanode2:
+  hadoop_datanode3:

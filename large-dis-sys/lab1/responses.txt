@@ -1,0 +1,26 @@
+Deployment
+2.1 1
+2.2 around 120 GB
+
+Basics
+Uploaded a file of 100 GB
+3. 100.08 gb and 80 blocks
+4. Uploaded 12 files of 10MB, 12 blocks
+
+Advanced
+1. use -appendToFile
+2. Time comparison
+
+Normal
+real	0m3.504s
+user	0m3.392s
+sys	  0m1.319s
+
+Append
+real	0m2.065s
+user	0m2.981s
+sys	  0m1.327s
+
+3. use -cat or -copyFromStorage
+
+Usa il namenode per il jar
