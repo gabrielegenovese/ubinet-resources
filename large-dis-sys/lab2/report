@@ -1,0 +1,133 @@
+
+= Lab 2
+
+== Testing
+
+
+=== What are the new services ? Explain the role of each one
+Nodes:
+- namenode: metadata manager node
+- datanode: storage node
+- resourcemanager: yarn
+- nodemanager1: node and information about applications and containers running on that node
+- historyserver: allow the user to get status on finished applications
+
+
+Full path of file:
+/opt/hadoop-3.2.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar
+
+
+Semantic:
+Number of Maps  = 100
+Samples per Map = 10
+
+Output of exec:
+
+hadoop jar /opt/hadoop-3.2.1/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar pi 100 10
+
+```
+	File System Counters
+		FILE: Number of bytes read=193
+		FILE: Number of bytes written=23196667
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=26190
+		HDFS: Number of bytes written=215
+		HDFS: Number of read operations=405
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=3
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters 
+		Launched map tasks=100
+		Launched reduce tasks=1
+		Rack-local map tasks=100
+		Total time spent by all maps in occupied slots (ms)=803740
+		Total time spent by all reduces in occupied slots (ms)=20464
+		Total time spent by all map tasks (ms)=200935
+		Total time spent by all reduce tasks (ms)=2558
+		Total vcore-milliseconds taken by all map tasks=200935
+		Total vcore-milliseconds taken by all reduce tasks=2558
+		Total megabyte-milliseconds taken by all map tasks=823029760
+		Total megabyte-milliseconds taken by all reduce tasks=20955136
+	Map-Reduce Framework
+		Map input records=100
+		Map output records=200
+		Map output bytes=1800
+		Map output materialized bytes=2496
+		Input split bytes=14390
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=2
+		Reduce shuffle bytes=2496
+		Reduce input records=200
+		Reduce output records=0
+		Spilled Records=400
+		Shuffled Maps =100
+		Failed Shuffles=0
+		Merged Map outputs=100
+		GC time elapsed (ms)=6809
+		CPU time spent (ms)=35780
+		Physical memory (bytes) snapshot=32927227904
+		Virtual memory (bytes) snapshot=519601844224
+		Total committed heap usage (bytes)=30853824512
+		Peak Map Physical memory (bytes)=331849728
+		Peak Map Virtual memory (bytes)=5114875904
+		Peak Reduce Physical memory (bytes)=244092928
+		Peak Reduce Virtual memory (bytes)=8459145216
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=11800
+	File Output Format Counters 
+		Bytes Written=97
+Job Finished in 150.077 seconds
+2024-12-10 13:41:53,335 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+Estimated value of Pi is 3.14800000000000000000
+```
+
+All mappers generate a random number with the same key
+reduce should be 1 and will compute the A_circle/A_square
+
+Number of maps: number of nodes with map
+Sample per map: random value per map
+https://twitter-ml.readthedocs.io/en/latest/examples/calculate_pi.html
+
+
+Other examples:
+
+An example program must be given as the first argument.
+Valid program names are:
+  aggregatewordcount: An Aggregate based map/reduce program that counts the words in the input files.
+  aggregatewordhist: An Aggregate based map/reduce program that computes the histogram of the words in the input files.
+  bbp: A map/reduce program that uses Bailey-Borwein-Plouffe to compute exact digits of Pi.
+  dbcount: An example job that count the pageview counts from a database.
+  distbbp: A map/reduce program that uses a BBP-type formula to compute exact bits of Pi.
+  grep: A map/reduce program that counts the matches of a regex in the input.
+  join: A job that effects a join over sorted, equally partitioned datasets
+  multifilewc: A job that counts words from several files.
+  pentomino: A map/reduce tile laying program to find solutions to pentomino problems.
+  pi: A map/reduce program that estimates Pi using a quasi-Monte Carlo method.
+  randomtextwriter: A map/reduce program that writes 10GB of random textual data per node.
+  randomwriter: A map/reduce program that writes 10GB of random data per node.
+  secondarysort: An example defining a secondary sort to the reduce.
+  sort: A map/reduce program that sorts the data written by the random writer.
+  sudoku: A sudoku solver.
+  teragen: Generate data for the terasort
+  terasort: Run the terasort
+  teravalidate: Checking results of terasort
+  wordcount: A map/reduce program that counts the words in the input files.
+  wordmean: A map/reduce program that counts the average length of the words in the input files.
+  wordmedian: A map/reduce program that counts the median length of the words in the input files.
+  wordstandarddeviation: A map/reduce program that counts the standard deviation of the length of the words in the input files.
+
+
+== First Hadoop code
+
+
+
