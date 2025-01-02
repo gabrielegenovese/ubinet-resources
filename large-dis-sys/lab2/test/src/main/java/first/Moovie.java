@@ -13,6 +13,8 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+// Count the number of movies by genre
+// The list of movies for a genre given as an argument of your program 
 public class Moovie {
 
     public static class Map extends Mapper<LongWritable, Text, Text, IntWritable> {

@@ -5,11 +5,14 @@ first/Moovie$Map.class
 first/Join$Reduce.class
 first/App$Map.class
 first/WordCount$Map.class
+first/High$Reduce.class
 first/User.class
 first/User$Reduce.class
 first/WordCount.class
 first/Moovie$Reduce.class
+first/High.class
 first/App$Reduce.class
+first/High$Map.class
 first/Moovie.class
 first/Join.class
 first/WordCount$Reduce.class
