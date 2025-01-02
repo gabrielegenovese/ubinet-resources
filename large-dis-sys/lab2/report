@@ -129,5 +129,80 @@ Valid program names are:
 
 == First Hadoop code
 
+upload file in input and the exec:
+`hadoop jar test-1.0-SNAPSHOT.jar first.App /input /output`
+`hadoop jar test-1.0-SNAPSHOT.jar first.WordCount /input /output`
+
+== Processing complex data
+
+Note: esegue già lo split per riga
+
+First programm output
+```
+Action	7348
+Adventure	4145
+Animation	2929
+Children	2935
+Comedy	16870
+Crime	5319
+Documentary	5605
+Drama	25606
+Fantasy	2731
+Film-Noir	353
+Horror	5989
+IMAX	195
+Musical	1054
+Mystery	2925
+Romance	7719
+Sci-Fi	3595
+Thriller	8654
+War	1874
+Western	1399
+```
+
+Second output:
+
+```
+...
+2
+99406	4.1034484
+99407	3.4736843
+99408	3.9575124
+99409	3.4861112
+9941	4.33871
+99410	2.789254
+99411	3.55
+99412	3.721698
+99413	3.7407408
+99414	4.2524753
+99415	3.8265307
+99416	3.747573
+99417	3.6565657
+99418	2.974026
+99419	3.4833333
+9942	4.018182
+99420	4.177778
+99421	3.4204545
+99422	3.6914895
+99423	4.292308
+99424	2.9141414
+99425	4.173913
+99426	3.8888888
+99427	3.5263157
+99428	3.7205882
+...
+```
+
+```
+root@f42eabadb4dc:/#  hdfs dfs -cat /output/part-r-00000 | grep Step\ Up
+2024-12-17 16:03:15,304 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+113103	Step Up All In (2014) , 3.4005377
+196575	Step Up to the Plate (2012) , 3.5
+47382	Step Up (2006) , 3.3434782
+58107	Step Up 2 the Streets (2008) , 3.0406091
+80222	Step Up 3D (2010) , 3.2808824
+98373	Step Up Revolution (2012) , 3.3768656
+```
+
 
 

@@ -24,7 +24,7 @@ public class WordCount {
 
     public static class Map extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
       private final static IntWritable one = new IntWritable(1);
-      private Text word = new Text();
+      private final Text word = new Text();
 
       @Override
       public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
