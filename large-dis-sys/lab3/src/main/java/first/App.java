@@ -1,45 +1,40 @@
 package first;
 
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.Queue;
 import java.util.Random;
 
 import org.apache.storm.Config;
 import org.apache.storm.StormSubmitter;
 import org.apache.storm.spout.SpoutOutputCollector;
+import org.apache.storm.task.OutputCollector;
 import org.apache.storm.task.TopologyContext;
 import org.apache.storm.topology.OutputFieldsDeclarer;
 import org.apache.storm.topology.TopologyBuilder;
+import org.apache.storm.topology.base.BaseRichBolt;
 import org.apache.storm.topology.base.BaseRichSpout;
 import org.apache.storm.tuple.Fields;
+import org.apache.storm.tuple.Tuple;
 import org.apache.storm.tuple.Values;
 import org.apache.storm.utils.Utils;
 
 public class App {
 
-    static final String SENTENCE_SPOUT_ID = "random-spout";
-    // static final String BOLT_ID = "my-bolt";
-    static final String TOPOLOGY_NAME = "test-topology";
-
     public static void main(String[] args) throws Exception {
         Config config = new Config();
+        config.setDebug(true);
         config.setNumWorkers(1);
 
         RandomSpout spout = new RandomSpout();
+        AvgBolt bolt = new AvgBolt();
 
-        // sync the filesystem after every 1k tuples
-        // SyncPolicy syncPolicy = new CountSyncPolicy(1000);
-        // rotate files when they reach 5MB
-        // FileRotationPolicy rotationPolicy = new FileSizeRotationPolicy(5.0f, Units.MB);
-        // FileNameFormat fileNameFormat = new DefaultFileNameFormat().withPath("/tmp/source/").withExtension(".seq");
-        // create sequence format instance.
-        // DefaultSequenceFormat format = new DefaultSequenceFormat("timestamp", "sentence");
         TopologyBuilder builder = new TopologyBuilder();
+        builder.setSpout("random-spout", spout);
+        builder.setBolt("filter-bolt", bolt).shuffleGrouping("random-spout");
+        builder.setBolt("avg-bolt", bolt).shuffleGrouping("filter-bolt");
 
-        builder.setSpout("spout", spout);
-        // RandomSpout --> MyBolt
-        // builder.setBolt(BOLT_ID, bolt, 4).shuffleGrouping(SENTENCE_SPOUT_ID);
         StormSubmitter.submitTopology("test", config, builder.createTopology());
-        StormSubmitter.submitTopologyWithProgressBar("test", config, builder.createTopology());
     }
 
     public static class RandomSpout extends BaseRichSpout {
@@ -53,38 +48,75 @@ public class App {
         }
 
         @Override
-        public void open(Map<String, Object> config, TopologyContext context,
-                SpoutOutputCollector collector) {
-            this.collector = collector;
-            this.rand = new Random();
+        public void open(Map<String, Object> config, TopologyContext context, SpoutOutputCollector _collector) {
+            collector = _collector;
+            rand = new Random();
         }
 
         @Override
         public void nextTuple() {
             Utils.sleep(100);
-            Values values = new Values(this.rand.nextInt(50) + 1);
-            this.collector.emit(values);
+            Values values = new Values(rand.nextInt(100));
+            collector.emit(values);
         }
     }
 
-    // public static class MyBolt extends BaseRichBolt {
-    //     private HashMap<String, Long> counts = null;
-    //     private OutputCollector collector;
-    //     @Override
-    //     public void prepare(Map<String, Object> config, TopologyContext context, OutputCollector collector) {
-    //         this.counts = new HashMap<>();
-    //         this.collector = collector;
-    //     }
-    //     @Override
-    //     public void execute(Tuple tuple) {
-    //         collector.ack(tuple);
-    //     }
-    //     @Override
-    //     public void declareOutputFields(OutputFieldsDeclarer declarer) {
-    //         // this bolt does not emit anything
-    //     }
-    //     @Override
-    //     public void cleanup() {
-    //     }
-    // }
+    public static class Filter extends BaseRichBolt {
+
+        private OutputCollector collector;
+
+        @Override
+        public void declareOutputFields(OutputFieldsDeclarer declarer) {
+            declarer.declare(new Fields("number"));
+        }
+
+        @Override
+        public void prepare(Map conf, TopologyContext context, OutputCollector _collector) {
+            collector = _collector;
+        }
+
+        @Override
+        public void execute(Tuple tuple) {
+            int n = tuple.getIntegerByField("number");
+            // emit only odd numbers
+            if (n % 2 == 1) {
+                collector.emit(new Values(n));
+            }
+            collector.ack(tuple);
+        }
+
+    }
+
+    public static class AvgBolt extends BaseRichBolt {
+
+        private int sum;
+        private Queue<Integer> numbers;
+        private OutputCollector collector;
+
+        @Override
+        public void prepare(Map conf, TopologyContext context, OutputCollector _collector) {
+            collector = _collector;
+            sum = 0;
+            numbers = new LinkedList<>();
+        }
+
+        @Override
+        public void execute(Tuple tuple) {
+            int n = tuple.getInteger(0);
+            numbers.add(n);
+            int remove = 0;
+            if (numbers.size() > 10) {
+                remove = numbers.remove();
+            }
+            sum += n - remove;
+            collector.emit(new Values(sum / 10));
+            collector.ack(tuple);
+        }
+
+        @Override
+        public void declareOutputFields(OutputFieldsDeclarer declarer) {
+            declarer.declare(new Fields("avg"));
+        }
+
+    }
 }
