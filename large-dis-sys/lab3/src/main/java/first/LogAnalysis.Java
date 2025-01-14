@@ -18,8 +18,30 @@ import org.apache.storm.tuple.Fields;
 import org.apache.storm.tuple.Tuple;
 import org.apache.storm.tuple.Values;
 import org.apache.storm.utils.Utils;
+import java.io.File;  
+import java.io.FileNotFoundException; 
+import java.util.Scanner;
 
-public class App {
+/*
+
+Spout: read from file
+
+first bolt: filter lines
+
+second bolt: format and extract useful data (username-ip)
+
+can use a bolt foreach information (we can scale depending on the data)
+si usa il windowing per controllare che si usino 5 attempt alla volta
+
+meglio perché sennò non si riescono a contare bene le cose quando creiamo più repliche
+
+per l'authentication failure si manda dal filter a un altro bolt senza window così fa la notifica subito
+
+usare il naming degli streams per mandare dopo il format
+
+*/
+
+public class LogAnalysis {
 
     public static void main(String[] args) throws Exception {
         Config config = new Config();
@@ -27,47 +49,59 @@ public class App {
         config.setNumWorkers(1);
 
         RandomSpout spout = new RandomSpout();
-        AvgBolt bolt = new AvgBolt();
+        FilterBolt filterBolt = new FilterBolt();
+        FormatBolt formatBolt = new FormatBolt();
 
         TopologyBuilder builder = new TopologyBuilder();
-        builder.setSpout("random-spout", spout);
-        builder.setBolt("filter-bolt", bolt).shuffleGrouping("random-spout");
-        builder.setBolt("avg-bolt", bolt).shuffleGrouping("filter-bolt");
+        builder.setSpout("read-spout", spout);
+        builder.setBolt("filter-bolt", filterBolt).shuffleGrouping("random-spout");
+        builder.setBolt("format-bolt", formatBolt).shuffleGrouping("format-bolt");
 
         StormSubmitter.submitTopology("test", config, builder.createTopology());
     }
 
-    public static class RandomSpout extends BaseRichSpout {
+    public static class ReadSpout extends BaseRichSpout {
 
         private SpoutOutputCollector collector;
-        private Random rand;
+        private File file;
+        private Scanner reader;
 
         @Override
         public void declareOutputFields(OutputFieldsDeclarer declarer) {
-            declarer.declare(new Fields("number"));
+            declarer.declare(new Fields("line"));
+
+            try {
+                file = new File("SSH.logs");
+                Scanner reader = new Scanner(file);
+            } catch (FileNotFoundException e) {
+                System.out.println("File not found.");
+                e.printStackTrace();
+            }
         }
 
         @Override
         public void open(Map<String, Object> config, TopologyContext context, SpoutOutputCollector _collector) {
             collector = _collector;
-            rand = new Random();
         }
 
         @Override
         public void nextTuple() {
-            Utils.sleep(100);
-            Values values = new Values(rand.nextInt(1000));
-            collector.emit(values);
+            Utils.sleep(1000);
+            if (reader.hasNextLine()) {
+                String data = reader.nextLine();
+                collector.emit(data);
+            } else {
+                collector.emit("EOF");
+            }
         }
     }
 
-    public static class Filter extends BaseRichBolt {
+    public static class FilterBolt extends BaseRichBolt {
 
         private OutputCollector collector;
 
         @Override
         public void declareOutputFields(OutputFieldsDeclarer declarer) {
-            declarer.declare(new Fields("number"));
         }
 
         @Override
@@ -77,46 +111,24 @@ public class App {
 
         @Override
         public void execute(Tuple tuple) {
-            int n = tuple.getIntegerByField("number");
-            // emit only odd numbers
-            if (n % 2 == 1) {
-                collector.emit(new Values(n));
-            }
-            collector.ack(tuple);
         }
-
     }
 
     public static class AvgBolt extends BaseRichBolt {
 
-        private int sum;
-        private Queue<Integer> numbers;
         private OutputCollector collector;
 
         @Override
         public void prepare(Map conf, TopologyContext context, OutputCollector _collector) {
             collector = _collector;
-            sum = 0;
-            numbers = new LinkedList<>();
         }
 
         @Override
         public void execute(Tuple tuple) {
-            int n = tuple.getInteger(0);
-            numbers.add(n);
-            int remove = 0;
-            if (numbers.size() > 10) {
-                remove = numbers.remove();
-            }
-            sum += n - remove;
-            collector.emit(new Values(sum / 10));
-            collector.ack(tuple);
         }
 
         @Override
         public void declareOutputFields(OutputFieldsDeclarer declarer) {
-            declarer.declare(new Fields("avg"));
         }
-
     }
 }
