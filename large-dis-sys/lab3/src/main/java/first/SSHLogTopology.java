@@ -40,7 +40,7 @@ public class SSHLogTopology {
 
         Config conf = new Config();
         conf.setDebug(true);
-        // conf.put("logFile", "/storm/labs/SSH.log");
+        conf.put("logFile", "/storm/labs/SSH.log");
         if (args != null && args.length > 0) {
             StormSubmitter.submitTopologyWithProgressBar(args[0], conf, builder.createTopology());
         }
@@ -63,7 +63,7 @@ public class SSHLogTopology {
 
         @Override
         public void nextTuple() {
-            Utils.sleep(10);
+            Utils.sleep(100);
             if (fileReader != null) {
                 String l;
                 try {
