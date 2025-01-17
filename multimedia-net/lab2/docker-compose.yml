@@ -1,0 +1,32 @@
+services:
+    client:
+        image: dash_client-image
+        build: ./client
+        container_name: dash_client
+        tty: true
+        volumes:
+        - ./volumes:/volumes
+        cap_add:
+        - NET_ADMIN
+        networks:
+            net-10.9.0.0:
+                ipv4_address: 10.9.0.1    	
+    server:
+        image: dash_server-image
+        build: ./server
+        container_name: dash_server
+        tty: true
+        volumes:
+        - ./volumes:/volumes
+        cap_add:
+        - NET_ADMIN
+        networks:
+            net-10.9.0.0:
+                ipv4_address: 10.9.0.80    	
+networks:
+    net-10.9.0.0:
+        name: net-10.9.0.0
+        ipam:
+            config:
+                - subnet: 10.9.0.0/24
+                  gateway: 10.9.0.254 
