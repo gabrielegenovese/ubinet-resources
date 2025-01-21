@@ -1,0 +1,14 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "disabled",
+    "maven.executable.preferMavenWrapper": true,
+    "maven.executable.path": "/Users/fhuet/Documents/Software/apache-maven-3.6.1/bin/mvn",
+    "maven.excludedFolders": [
+
+        "**/.*",
+        "**/node_modules",
+        "**/target",
+        "**/bin",
+        "**/archetype-resources"
+    ]
+}

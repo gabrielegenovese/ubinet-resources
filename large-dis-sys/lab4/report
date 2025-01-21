@@ -1,0 +1,4 @@
+
+
+Combine the two commands: 
+nl -ba -s: /kafka/labs/pg2701.txt | kafka-console-producer --topic first --property parse.key=true --property key.separator=':' --bootstrap-server kafka:9092
