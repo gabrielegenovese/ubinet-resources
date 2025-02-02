@@ -1,0 +1,1259 @@
+2025-01-30 09:32:27,083 - dash_client.py:651 - INFO - Settings: multi-codec -> False, medusa_mc -> False
+2025-01-30 09:32:27,083 - dash_client.py:652 - INFO - Downloading MPD file http://10.9.0.80/media/BigBuckBunny/4sec/BigBuckBunny_4s.mpd
+2025-01-30 09:32:29,068 - dash_client.py:76 - INFO - Downloaded the MPD file BigBuckBunny_4s.mpd
+2025-01-30 09:32:29,069 - read_mpd.py:164 - INFO - Reading the MPD file
+2025-01-30 09:32:29,075 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,075 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,075 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,075 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,075 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,075 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,075 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,075 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,075 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,076 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,076 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,077 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,077 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,077 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,077 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,077 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,077 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,077 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,077 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,077 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,077 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,077 - read_mpd.py:220 - INFO - Found Video
+2025-01-30 09:32:29,077 - read_mpd.py:228 - INFO - Retrieving Media
+2025-01-30 09:32:29,078 - dash_client.py:676 - INFO - The DASH media has 1 video adaptations with a total of 20 video representations
+2025-01-30 09:32:29,078 - dash_client.py:698 - CRITICAL - Started MEDUSA-DASH Playback
+2025-01-30 09:32:29,078 - dash_buffer.py:22 - INFO - Initializing the Buffer
+2025-01-30 09:32:29,078 - dash_buffer.py:53 - INFO - VideoLength=596.46,segmentDuration=4,MaxBufferSize=5.0,InitialBuffer(secs)=1,BufferAlph(secs)=2,BufferBeta(secs)=4
+2025-01-30 09:32:29,078 - dash_buffer.py:64 - INFO - Changing state from INITIALIZED to INITIAL_BUFFERING at 0 Playback time 
+2025-01-30 09:32:29,078 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2025-01-30 09:32:29,078 - dash_buffer.py:224 - INFO - Starting the Player
+2025-01-30 09:32:29,078 - dash_buffer.py:78 - INFO - Initialized player with video length 596.46
+2025-01-30 09:32:29,099 - dash_buffer.py:258 - INFO - BufferStats: EpochTime=0,CurrentPlaybackTime=0,CurrentBufferSize=0,CurrentPlaybackState=INITIAL_BUFFERING,Action=Starting,Bitrate=0
+2025-01-30 09:32:29,104 - dash_client.py:189 - INFO - The segments are stored in TEMP_5oUR1j
+2025-01-30 09:32:29,118 - dash_client.py:246 - INFO - 151 available segments starting from index 1
+2025-01-30 09:32:29,118 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 0
+2025-01-30 09:32:29,134 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s_init.mp4
+2025-01-30 09:32:29,186 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s_init.mp4 HTTP Error:404 
+2025-01-30 09:32:29,202 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:29,212 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 1
+2025-01-30 09:32:29,213 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:29,213 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:29,213 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:29,213 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:29,219 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s1.m4s
+2025-01-30 09:32:29,271 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s1.m4s HTTP Error:404 
+2025-01-30 09:32:29,287 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:29,287 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 2
+2025-01-30 09:32:29,303 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:29,313 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:29,324 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:29,324 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:29,324 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s2.m4s
+2025-01-30 09:32:29,366 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s2.m4s HTTP Error:404 
+2025-01-30 09:32:29,382 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:29,392 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 3
+2025-01-30 09:32:29,419 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:29,430 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:29,440 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:29,440 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:29,440 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s3.m4s
+2025-01-30 09:32:29,482 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s3.m4s HTTP Error:404 
+2025-01-30 09:32:29,498 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:29,509 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 4
+2025-01-30 09:32:29,541 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:29,551 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:29,556 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:29,562 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:29,567 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s4.m4s
+2025-01-30 09:32:29,620 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s4.m4s HTTP Error:404 
+2025-01-30 09:32:29,636 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:29,646 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 5
+2025-01-30 09:32:29,668 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:29,678 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:29,689 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:29,699 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:29,710 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s5.m4s
+2025-01-30 09:32:29,763 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s5.m4s HTTP Error:404 
+2025-01-30 09:32:29,779 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:29,789 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 6
+2025-01-30 09:32:29,821 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:29,826 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:29,831 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:29,837 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:29,837 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s6.m4s
+2025-01-30 09:32:29,879 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s6.m4s HTTP Error:404 
+2025-01-30 09:32:29,894 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:29,900 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 7
+2025-01-30 09:32:29,926 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:29,936 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:29,947 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:29,952 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:29,962 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s7.m4s
+2025-01-30 09:32:30,015 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s7.m4s HTTP Error:404 
+2025-01-30 09:32:30,030 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,041 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 8
+2025-01-30 09:32:30,072 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:30,082 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:30,093 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:30,098 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:30,103 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s8.m4s
+2025-01-30 09:32:30,150 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s8.m4s HTTP Error:404 
+2025-01-30 09:32:30,166 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,176 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 9
+2025-01-30 09:32:30,207 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:30,217 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:30,228 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:30,233 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:30,244 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s9.m4s
+2025-01-30 09:32:30,296 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s9.m4s HTTP Error:404 
+2025-01-30 09:32:30,311 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,317 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 10
+2025-01-30 09:32:30,343 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:30,353 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:30,364 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:30,369 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:30,375 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s10.m4s
+2025-01-30 09:32:30,421 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s10.m4s HTTP Error:404 
+2025-01-30 09:32:30,437 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,448 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 11
+2025-01-30 09:32:30,474 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:30,484 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:30,495 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:30,500 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:30,505 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s11.m4s
+2025-01-30 09:32:30,552 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s11.m4s HTTP Error:404 
+2025-01-30 09:32:30,568 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,578 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 12
+2025-01-30 09:32:30,620 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:30,631 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:30,641 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:30,646 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:30,646 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s12.m4s
+2025-01-30 09:32:30,688 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s12.m4s HTTP Error:404 
+2025-01-30 09:32:30,704 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,714 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 13
+2025-01-30 09:32:30,740 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:30,750 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:30,761 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:30,771 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:30,772 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s13.m4s
+2025-01-30 09:32:30,813 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s13.m4s HTTP Error:404 
+2025-01-30 09:32:30,829 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,840 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 14
+2025-01-30 09:32:30,866 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:30,876 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:30,887 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:30,892 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:30,903 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s14.m4s
+2025-01-30 09:32:30,955 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s14.m4s HTTP Error:404 
+2025-01-30 09:32:30,971 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:30,981 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 15
+2025-01-30 09:32:31,002 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,013 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,023 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,029 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,039 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s15.m4s
+2025-01-30 09:32:31,086 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s15.m4s HTTP Error:404 
+2025-01-30 09:32:31,102 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,112 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 16
+2025-01-30 09:32:31,154 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,165 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,175 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,186 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,196 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s16.m4s
+2025-01-30 09:32:31,249 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s16.m4s HTTP Error:404 
+2025-01-30 09:32:31,264 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,269 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 17
+2025-01-30 09:32:31,295 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,306 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,316 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,327 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,337 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s17.m4s
+2025-01-30 09:32:31,390 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s17.m4s HTTP Error:404 
+2025-01-30 09:32:31,405 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,416 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 18
+2025-01-30 09:32:31,458 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,468 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,478 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,484 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,489 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s18.m4s
+2025-01-30 09:32:31,536 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s18.m4s HTTP Error:404 
+2025-01-30 09:32:31,552 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,562 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 19
+2025-01-30 09:32:31,588 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,599 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,610 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,615 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,620 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s19.m4s
+2025-01-30 09:32:31,667 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s19.m4s HTTP Error:404 
+2025-01-30 09:32:31,683 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,693 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 20
+2025-01-30 09:32:31,710 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,720 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,720 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,720 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,720 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s20.m4s
+2025-01-30 09:32:31,762 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s20.m4s HTTP Error:404 
+2025-01-30 09:32:31,778 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,788 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 21
+2025-01-30 09:32:31,825 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,835 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,846 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,851 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,856 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s21.m4s
+2025-01-30 09:32:31,893 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s21.m4s HTTP Error:404 
+2025-01-30 09:32:31,909 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,919 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 22
+2025-01-30 09:32:31,920 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:31,920 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:31,920 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:31,920 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:31,920 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s22.m4s
+2025-01-30 09:32:31,962 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s22.m4s HTTP Error:404 
+2025-01-30 09:32:31,977 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:31,988 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 23
+2025-01-30 09:32:32,014 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,024 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,035 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,040 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,051 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s23.m4s
+2025-01-30 09:32:32,103 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s23.m4s HTTP Error:404 
+2025-01-30 09:32:32,119 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,129 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 24
+2025-01-30 09:32:32,155 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,165 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,176 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,181 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,186 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s24.m4s
+2025-01-30 09:32:32,233 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s24.m4s HTTP Error:404 
+2025-01-30 09:32:32,249 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,254 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 25
+2025-01-30 09:32:32,280 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,291 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,302 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,307 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,312 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s25.m4s
+2025-01-30 09:32:32,359 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s25.m4s HTTP Error:404 
+2025-01-30 09:32:32,375 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,385 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 26
+2025-01-30 09:32:32,411 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,421 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,432 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,442 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,447 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s26.m4s
+2025-01-30 09:32:32,489 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s26.m4s HTTP Error:404 
+2025-01-30 09:32:32,495 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,500 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 27
+2025-01-30 09:32:32,526 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,537 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,547 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,547 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,547 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s27.m4s
+2025-01-30 09:32:32,589 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s27.m4s HTTP Error:404 
+2025-01-30 09:32:32,605 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,615 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 28
+2025-01-30 09:32:32,641 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,652 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,652 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,652 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,657 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s28.m4s
+2025-01-30 09:32:32,709 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s28.m4s HTTP Error:404 
+2025-01-30 09:32:32,725 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,736 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 29
+2025-01-30 09:32:32,752 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,763 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,773 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,773 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,773 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s29.m4s
+2025-01-30 09:32:32,815 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s29.m4s HTTP Error:404 
+2025-01-30 09:32:32,825 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,836 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 30
+2025-01-30 09:32:32,862 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:32,872 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:32,883 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:32,888 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:32,893 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s30.m4s
+2025-01-30 09:32:32,941 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s30.m4s HTTP Error:404 
+2025-01-30 09:32:32,956 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:32,967 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 31
+2025-01-30 09:32:32,993 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,003 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,014 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,019 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,024 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s31.m4s
+2025-01-30 09:32:33,071 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s31.m4s HTTP Error:404 
+2025-01-30 09:32:33,086 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,097 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 32
+2025-01-30 09:32:33,123 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,133 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,144 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,149 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,155 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s32.m4s
+2025-01-30 09:32:33,201 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s32.m4s HTTP Error:404 
+2025-01-30 09:32:33,217 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,222 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 33
+2025-01-30 09:32:33,259 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,269 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,280 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,285 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,290 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s33.m4s
+2025-01-30 09:32:33,337 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s33.m4s HTTP Error:404 
+2025-01-30 09:32:33,353 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,364 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 34
+2025-01-30 09:32:33,390 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,400 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,411 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,411 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,411 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s34.m4s
+2025-01-30 09:32:33,453 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s34.m4s HTTP Error:404 
+2025-01-30 09:32:33,468 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,479 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 35
+2025-01-30 09:32:33,505 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,515 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,526 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,531 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,537 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s35.m4s
+2025-01-30 09:32:33,573 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s35.m4s HTTP Error:404 
+2025-01-30 09:32:33,574 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,574 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 36
+2025-01-30 09:32:33,594 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,605 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,610 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,616 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,621 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s36.m4s
+2025-01-30 09:32:33,668 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s36.m4s HTTP Error:404 
+2025-01-30 09:32:33,684 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,695 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 37
+2025-01-30 09:32:33,721 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,731 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,742 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,747 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,753 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s37.m4s
+2025-01-30 09:32:33,800 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s37.m4s HTTP Error:404 
+2025-01-30 09:32:33,816 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,826 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 38
+2025-01-30 09:32:33,852 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,863 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:33,874 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:33,879 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:33,884 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s38.m4s
+2025-01-30 09:32:33,932 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s38.m4s HTTP Error:404 
+2025-01-30 09:32:33,947 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:33,958 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 39
+2025-01-30 09:32:33,979 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:33,989 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,000 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,005 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,011 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s39.m4s
+2025-01-30 09:32:34,062 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s39.m4s HTTP Error:404 
+2025-01-30 09:32:34,073 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,078 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 40
+2025-01-30 09:32:34,104 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,109 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,119 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,124 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,130 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s40.m4s
+2025-01-30 09:32:34,171 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s40.m4s HTTP Error:404 
+2025-01-30 09:32:34,181 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,186 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 41
+2025-01-30 09:32:34,217 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,228 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,233 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,233 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,234 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s41.m4s
+2025-01-30 09:32:34,275 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s41.m4s HTTP Error:404 
+2025-01-30 09:32:34,291 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,291 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 42
+2025-01-30 09:32:34,312 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,322 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,333 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,338 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,344 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s42.m4s
+2025-01-30 09:32:34,391 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s42.m4s HTTP Error:404 
+2025-01-30 09:32:34,406 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,417 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 43
+2025-01-30 09:32:34,438 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,448 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,459 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,464 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,470 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s43.m4s
+2025-01-30 09:32:34,517 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s43.m4s HTTP Error:404 
+2025-01-30 09:32:34,532 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,538 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 44
+2025-01-30 09:32:34,574 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,585 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,585 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,585 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,585 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s44.m4s
+2025-01-30 09:32:34,626 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s44.m4s HTTP Error:404 
+2025-01-30 09:32:34,642 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,653 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 45
+2025-01-30 09:32:34,653 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,653 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,653 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,653 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,653 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s45.m4s
+2025-01-30 09:32:34,695 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s45.m4s HTTP Error:404 
+2025-01-30 09:32:34,711 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,721 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 46
+2025-01-30 09:32:34,742 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,753 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,764 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,769 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,779 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s46.m4s
+2025-01-30 09:32:34,831 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s46.m4s HTTP Error:404 
+2025-01-30 09:32:34,847 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,857 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 47
+2025-01-30 09:32:34,883 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,894 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,904 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,910 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,920 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s47.m4s
+2025-01-30 09:32:34,957 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s47.m4s HTTP Error:404 
+2025-01-30 09:32:34,957 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:34,957 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 48
+2025-01-30 09:32:34,973 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:34,983 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:34,994 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:34,994 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:34,994 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s48.m4s
+2025-01-30 09:32:35,036 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s48.m4s HTTP Error:404 
+2025-01-30 09:32:35,051 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,062 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 49
+2025-01-30 09:32:35,088 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:35,098 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:35,109 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:35,114 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:35,119 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s49.m4s
+2025-01-30 09:32:35,161 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s49.m4s HTTP Error:404 
+2025-01-30 09:32:35,176 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,187 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 50
+2025-01-30 09:32:35,213 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:35,224 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:35,234 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:35,234 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:35,234 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s50.m4s
+2025-01-30 09:32:35,276 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s50.m4s HTTP Error:404 
+2025-01-30 09:32:35,291 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,302 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 51
+2025-01-30 09:32:35,328 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:35,338 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:35,349 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:35,359 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:35,365 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s51.m4s
+2025-01-30 09:32:35,417 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s51.m4s HTTP Error:404 
+2025-01-30 09:32:35,417 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,417 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 52
+2025-01-30 09:32:35,460 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:35,470 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:35,481 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:35,486 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:35,491 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s52.m4s
+2025-01-30 09:32:35,543 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s52.m4s HTTP Error:404 
+2025-01-30 09:32:35,559 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,564 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 53
+2025-01-30 09:32:35,590 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:35,601 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:35,611 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:35,616 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:35,622 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s53.m4s
+2025-01-30 09:32:35,675 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s53.m4s HTTP Error:404 
+2025-01-30 09:32:35,690 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,701 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 54
+2025-01-30 09:32:35,732 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:35,743 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:35,753 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:35,758 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:35,764 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s54.m4s
+2025-01-30 09:32:35,805 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s54.m4s HTTP Error:404 
+2025-01-30 09:32:35,821 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,832 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 55
+2025-01-30 09:32:35,858 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:35,868 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:35,879 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:35,884 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:35,890 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s55.m4s
+2025-01-30 09:32:35,941 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s55.m4s HTTP Error:404 
+2025-01-30 09:32:35,957 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:35,968 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 56
+2025-01-30 09:32:35,994 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,004 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,014 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,015 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,015 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s56.m4s
+2025-01-30 09:32:36,056 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s56.m4s HTTP Error:404 
+2025-01-30 09:32:36,072 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,082 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 57
+2025-01-30 09:32:36,109 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,119 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,129 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,135 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,140 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s57.m4s
+2025-01-30 09:32:36,187 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s57.m4s HTTP Error:404 
+2025-01-30 09:32:36,202 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,213 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 58
+2025-01-30 09:32:36,239 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,249 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,260 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,265 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,276 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s58.m4s
+2025-01-30 09:32:36,322 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s58.m4s HTTP Error:404 
+2025-01-30 09:32:36,338 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,349 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 59
+2025-01-30 09:32:36,380 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,390 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,401 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,406 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,411 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s59.m4s
+2025-01-30 09:32:36,453 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s59.m4s HTTP Error:404 
+2025-01-30 09:32:36,468 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,479 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 60
+2025-01-30 09:32:36,515 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,525 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,536 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,541 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,547 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s60.m4s
+2025-01-30 09:32:36,599 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s60.m4s HTTP Error:404 
+2025-01-30 09:32:36,614 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,625 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 61
+2025-01-30 09:32:36,651 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,661 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,672 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,677 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,682 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s61.m4s
+2025-01-30 09:32:36,735 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s61.m4s HTTP Error:404 
+2025-01-30 09:32:36,740 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,750 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 62
+2025-01-30 09:32:36,766 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,777 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,788 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,793 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,798 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s62.m4s
+2025-01-30 09:32:36,845 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s62.m4s HTTP Error:404 
+2025-01-30 09:32:36,861 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,861 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 63
+2025-01-30 09:32:36,887 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:36,897 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:36,908 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:36,918 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:36,929 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s63.m4s
+2025-01-30 09:32:36,971 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s63.m4s HTTP Error:404 
+2025-01-30 09:32:36,987 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:36,997 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 64
+2025-01-30 09:32:37,024 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,034 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,039 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,050 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,055 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s64.m4s
+2025-01-30 09:32:37,107 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s64.m4s HTTP Error:404 
+2025-01-30 09:32:37,112 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:37,118 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 65
+2025-01-30 09:32:37,149 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,159 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,170 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,175 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,180 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s65.m4s
+2025-01-30 09:32:37,228 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s65.m4s HTTP Error:404 
+2025-01-30 09:32:37,243 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:37,254 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 66
+2025-01-30 09:32:37,280 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,291 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,301 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,306 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,317 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s66.m4s
+2025-01-30 09:32:37,369 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s66.m4s HTTP Error:404 
+2025-01-30 09:32:37,384 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:37,395 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 67
+2025-01-30 09:32:37,426 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,436 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,447 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,452 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,463 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s67.m4s
+2025-01-30 09:32:37,515 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s67.m4s HTTP Error:404 
+2025-01-30 09:32:37,530 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:37,541 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 68
+2025-01-30 09:32:37,567 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,577 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,588 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,594 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,599 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s68.m4s
+2025-01-30 09:32:37,651 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s68.m4s HTTP Error:404 
+2025-01-30 09:32:37,667 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:37,677 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 69
+2025-01-30 09:32:37,719 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,729 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,740 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,745 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,750 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s69.m4s
+2025-01-30 09:32:37,797 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s69.m4s HTTP Error:404 
+2025-01-30 09:32:37,808 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:37,813 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 70
+2025-01-30 09:32:37,813 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,814 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,814 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,814 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,814 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s70.m4s
+2025-01-30 09:32:37,855 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s70.m4s HTTP Error:404 
+2025-01-30 09:32:37,871 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:37,881 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 71
+2025-01-30 09:32:37,923 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:37,933 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:37,944 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:37,944 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:37,944 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s71.m4s
+2025-01-30 09:32:37,985 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s71.m4s HTTP Error:404 
+2025-01-30 09:32:38,001 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,011 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 72
+2025-01-30 09:32:38,037 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,048 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,058 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,058 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,064 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s72.m4s
+2025-01-30 09:32:38,105 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s72.m4s HTTP Error:404 
+2025-01-30 09:32:38,121 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,131 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 73
+2025-01-30 09:32:38,157 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,168 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,178 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,183 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,189 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s73.m4s
+2025-01-30 09:32:38,235 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s73.m4s HTTP Error:404 
+2025-01-30 09:32:38,251 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,262 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 74
+2025-01-30 09:32:38,288 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,298 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,309 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,314 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,319 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s74.m4s
+2025-01-30 09:32:38,356 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s74.m4s HTTP Error:404 
+2025-01-30 09:32:38,371 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,382 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 75
+2025-01-30 09:32:38,408 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,419 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,429 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,434 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,445 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s75.m4s
+2025-01-30 09:32:38,497 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s75.m4s HTTP Error:404 
+2025-01-30 09:32:38,513 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,513 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 76
+2025-01-30 09:32:38,513 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,513 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,513 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,513 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,513 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s76.m4s
+2025-01-30 09:32:38,555 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s76.m4s HTTP Error:404 
+2025-01-30 09:32:38,570 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,581 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 77
+2025-01-30 09:32:38,607 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,617 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,628 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,638 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,644 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s77.m4s
+2025-01-30 09:32:38,696 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s77.m4s HTTP Error:404 
+2025-01-30 09:32:38,711 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,722 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 78
+2025-01-30 09:32:38,753 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,764 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,774 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,780 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,785 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s78.m4s
+2025-01-30 09:32:38,832 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s78.m4s HTTP Error:404 
+2025-01-30 09:32:38,848 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,858 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 79
+2025-01-30 09:32:38,885 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:38,895 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:38,906 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:38,911 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:38,921 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s79.m4s
+2025-01-30 09:32:38,973 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s79.m4s HTTP Error:404 
+2025-01-30 09:32:38,989 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:38,999 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 80
+2025-01-30 09:32:39,025 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,036 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,041 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,041 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,041 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s80.m4s
+2025-01-30 09:32:39,083 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s80.m4s HTTP Error:404 
+2025-01-30 09:32:39,098 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,109 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 81
+2025-01-30 09:32:39,150 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,161 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,171 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,171 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,171 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s81.m4s
+2025-01-30 09:32:39,213 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s81.m4s HTTP Error:404 
+2025-01-30 09:32:39,229 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,239 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 82
+2025-01-30 09:32:39,280 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,291 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,301 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,307 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,312 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s82.m4s
+2025-01-30 09:32:39,348 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s82.m4s HTTP Error:404 
+2025-01-30 09:32:39,364 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,375 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 83
+2025-01-30 09:32:39,411 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,422 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,432 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,437 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,448 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s83.m4s
+2025-01-30 09:32:39,500 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s83.m4s HTTP Error:404 
+2025-01-30 09:32:39,511 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,516 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 84
+2025-01-30 09:32:39,542 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,553 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,563 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,563 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,563 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s84.m4s
+2025-01-30 09:32:39,600 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s84.m4s HTTP Error:404 
+2025-01-30 09:32:39,611 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,621 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 85
+2025-01-30 09:32:39,642 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,653 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,658 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,663 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,669 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s85.m4s
+2025-01-30 09:32:39,721 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s85.m4s HTTP Error:404 
+2025-01-30 09:32:39,737 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,747 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 86
+2025-01-30 09:32:39,768 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,773 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,784 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,784 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,784 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s86.m4s
+2025-01-30 09:32:39,825 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s86.m4s HTTP Error:404 
+2025-01-30 09:32:39,841 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,852 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 87
+2025-01-30 09:32:39,878 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:39,888 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:39,898 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:39,904 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:39,909 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s87.m4s
+2025-01-30 09:32:39,956 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s87.m4s HTTP Error:404 
+2025-01-30 09:32:39,972 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:39,982 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 88
+2025-01-30 09:32:40,008 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,019 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,029 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,035 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,040 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s88.m4s
+2025-01-30 09:32:40,087 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s88.m4s HTTP Error:404 
+2025-01-30 09:32:40,103 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,103 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 89
+2025-01-30 09:32:40,119 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,124 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,130 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,130 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,140 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s89.m4s
+2025-01-30 09:32:40,177 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s89.m4s HTTP Error:404 
+2025-01-30 09:32:40,193 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,203 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 90
+2025-01-30 09:32:40,224 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,235 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,245 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,246 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,251 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s90.m4s
+2025-01-30 09:32:40,298 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s90.m4s HTTP Error:404 
+2025-01-30 09:32:40,308 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,313 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 91
+2025-01-30 09:32:40,340 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,350 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,356 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,361 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,366 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s91.m4s
+2025-01-30 09:32:40,413 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s91.m4s HTTP Error:404 
+2025-01-30 09:32:40,429 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,434 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 92
+2025-01-30 09:32:40,465 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,476 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,486 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,492 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,497 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s92.m4s
+2025-01-30 09:32:40,544 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s92.m4s HTTP Error:404 
+2025-01-30 09:32:40,559 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,570 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 93
+2025-01-30 09:32:40,570 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,570 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,576 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,581 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,586 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s93.m4s
+2025-01-30 09:32:40,638 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s93.m4s HTTP Error:404 
+2025-01-30 09:32:40,654 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,654 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 94
+2025-01-30 09:32:40,665 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,675 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,685 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,691 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,702 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s94.m4s
+2025-01-30 09:32:40,753 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s94.m4s HTTP Error:404 
+2025-01-30 09:32:40,769 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,780 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 95
+2025-01-30 09:32:40,796 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,796 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,796 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,796 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,796 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s95.m4s
+2025-01-30 09:32:40,838 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s95.m4s HTTP Error:404 
+2025-01-30 09:32:40,843 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,853 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 96
+2025-01-30 09:32:40,879 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:40,890 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:40,900 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:40,911 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:40,911 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s96.m4s
+2025-01-30 09:32:40,952 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s96.m4s HTTP Error:404 
+2025-01-30 09:32:40,968 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:40,979 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 97
+2025-01-30 09:32:41,015 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,026 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,036 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,041 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,052 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s97.m4s
+2025-01-30 09:32:41,104 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s97.m4s HTTP Error:404 
+2025-01-30 09:32:41,120 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,130 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 98
+2025-01-30 09:32:41,156 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,167 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,177 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,188 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,188 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s98.m4s
+2025-01-30 09:32:41,230 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s98.m4s HTTP Error:404 
+2025-01-30 09:32:41,245 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,256 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 99
+2025-01-30 09:32:41,287 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,297 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,308 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,313 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,324 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s99.m4s
+2025-01-30 09:32:41,360 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s99.m4s HTTP Error:404 
+2025-01-30 09:32:41,376 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,386 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 100
+2025-01-30 09:32:41,407 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,418 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,428 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,433 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,439 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s100.m4s
+2025-01-30 09:32:41,480 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s100.m4s HTTP Error:404 
+2025-01-30 09:32:41,491 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,491 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 101
+2025-01-30 09:32:41,512 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,522 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,533 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,543 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,549 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s101.m4s
+2025-01-30 09:32:41,590 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s101.m4s HTTP Error:404 
+2025-01-30 09:32:41,601 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,606 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 102
+2025-01-30 09:32:41,647 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,657 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,658 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,658 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,663 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s102.m4s
+2025-01-30 09:32:41,710 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s102.m4s HTTP Error:404 
+2025-01-30 09:32:41,725 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,736 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 103
+2025-01-30 09:32:41,767 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,778 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,788 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,793 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,804 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s103.m4s
+2025-01-30 09:32:41,855 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s103.m4s HTTP Error:404 
+2025-01-30 09:32:41,871 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,876 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 104
+2025-01-30 09:32:41,902 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:41,902 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:41,902 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:41,902 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:41,902 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s104.m4s
+2025-01-30 09:32:41,943 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s104.m4s HTTP Error:404 
+2025-01-30 09:32:41,959 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:41,969 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 105
+2025-01-30 09:32:42,001 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,011 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,017 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,027 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,032 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s105.m4s
+2025-01-30 09:32:42,084 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s105.m4s HTTP Error:404 
+2025-01-30 09:32:42,094 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,100 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 106
+2025-01-30 09:32:42,131 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,131 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,131 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,131 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,131 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s106.m4s
+2025-01-30 09:32:42,172 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s106.m4s HTTP Error:404 
+2025-01-30 09:32:42,182 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,188 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 107
+2025-01-30 09:32:42,219 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,219 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,219 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,224 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,234 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s107.m4s
+2025-01-30 09:32:42,281 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s107.m4s HTTP Error:404 
+2025-01-30 09:32:42,291 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,296 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 108
+2025-01-30 09:32:42,322 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,322 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,322 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,322 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,327 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s108.m4s
+2025-01-30 09:32:42,380 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s108.m4s HTTP Error:404 
+2025-01-30 09:32:42,395 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,406 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 109
+2025-01-30 09:32:42,432 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,442 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,453 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,458 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,464 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s109.m4s
+2025-01-30 09:32:42,510 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s109.m4s HTTP Error:404 
+2025-01-30 09:32:42,526 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,536 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 110
+2025-01-30 09:32:42,552 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,557 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,568 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,578 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,578 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s110.m4s
+2025-01-30 09:32:42,619 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s110.m4s HTTP Error:404 
+2025-01-30 09:32:42,630 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,635 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 111
+2025-01-30 09:32:42,661 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,671 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,671 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,671 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,671 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s111.m4s
+2025-01-30 09:32:42,712 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s111.m4s HTTP Error:404 
+2025-01-30 09:32:42,728 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,728 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 112
+2025-01-30 09:32:42,749 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,749 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,749 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,749 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,749 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s112.m4s
+2025-01-30 09:32:42,795 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s112.m4s HTTP Error:404 
+2025-01-30 09:32:42,806 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,816 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 113
+2025-01-30 09:32:42,842 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,852 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,857 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,868 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,873 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s113.m4s
+2025-01-30 09:32:42,914 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s113.m4s HTTP Error:404 
+2025-01-30 09:32:42,924 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:42,930 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 114
+2025-01-30 09:32:42,955 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:42,956 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:42,956 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:42,956 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:42,956 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s114.m4s
+2025-01-30 09:32:42,997 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s114.m4s HTTP Error:404 
+2025-01-30 09:32:43,007 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,018 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 115
+2025-01-30 09:32:43,048 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,059 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,059 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,059 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,059 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s115.m4s
+2025-01-30 09:32:43,101 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s115.m4s HTTP Error:404 
+2025-01-30 09:32:43,116 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,121 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 116
+2025-01-30 09:32:43,148 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,158 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,169 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,174 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,179 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s116.m4s
+2025-01-30 09:32:43,226 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s116.m4s HTTP Error:404 
+2025-01-30 09:32:43,242 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,253 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 117
+2025-01-30 09:32:43,294 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,304 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,305 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,305 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,310 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s117.m4s
+2025-01-30 09:32:43,356 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s117.m4s HTTP Error:404 
+2025-01-30 09:32:43,367 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,372 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 118
+2025-01-30 09:32:43,398 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,398 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,398 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,398 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,398 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s118.m4s
+2025-01-30 09:32:43,439 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s118.m4s HTTP Error:404 
+2025-01-30 09:32:43,455 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,465 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 119
+2025-01-30 09:32:43,502 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,512 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,523 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,523 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,523 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s119.m4s
+2025-01-30 09:32:43,565 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s119.m4s HTTP Error:404 
+2025-01-30 09:32:43,581 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,591 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 120
+2025-01-30 09:32:43,617 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,628 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,638 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,644 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,655 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s120.m4s
+2025-01-30 09:32:43,706 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s120.m4s HTTP Error:404 
+2025-01-30 09:32:43,722 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,733 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 121
+2025-01-30 09:32:43,764 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,774 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,785 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,795 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,796 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s121.m4s
+2025-01-30 09:32:43,837 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s121.m4s HTTP Error:404 
+2025-01-30 09:32:43,853 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,863 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 122
+2025-01-30 09:32:43,890 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:43,900 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:43,905 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:43,911 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:43,916 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s122.m4s
+2025-01-30 09:32:43,968 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s122.m4s HTTP Error:404 
+2025-01-30 09:32:43,984 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:43,995 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 123
+2025-01-30 09:32:44,021 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,031 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,036 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,042 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,047 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s123.m4s
+2025-01-30 09:32:44,094 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s123.m4s HTTP Error:404 
+2025-01-30 09:32:44,110 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,110 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 124
+2025-01-30 09:32:44,131 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,142 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,147 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,153 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,158 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s124.m4s
+2025-01-30 09:32:44,211 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s124.m4s HTTP Error:404 
+2025-01-30 09:32:44,226 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,237 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 125
+2025-01-30 09:32:44,269 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,279 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,289 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,300 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,310 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s125.m4s
+2025-01-30 09:32:44,362 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s125.m4s HTTP Error:404 
+2025-01-30 09:32:44,373 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,378 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 126
+2025-01-30 09:32:44,420 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,430 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,441 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,446 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,451 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s126.m4s
+2025-01-30 09:32:44,503 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s126.m4s HTTP Error:404 
+2025-01-30 09:32:44,514 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,525 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 127
+2025-01-30 09:32:44,551 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,556 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,562 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,572 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,577 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s127.m4s
+2025-01-30 09:32:44,619 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s127.m4s HTTP Error:404 
+2025-01-30 09:32:44,630 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,640 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 128
+2025-01-30 09:32:44,656 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,666 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,666 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,666 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,666 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s128.m4s
+2025-01-30 09:32:44,708 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s128.m4s HTTP Error:404 
+2025-01-30 09:32:44,724 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,734 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 129
+2025-01-30 09:32:44,761 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,771 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,782 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,792 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,803 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s129.m4s
+2025-01-30 09:32:44,855 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s129.m4s HTTP Error:404 
+2025-01-30 09:32:44,870 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,881 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 130
+2025-01-30 09:32:44,907 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:44,912 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:44,923 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:44,933 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:44,933 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s130.m4s
+2025-01-30 09:32:44,975 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s130.m4s HTTP Error:404 
+2025-01-30 09:32:44,985 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:44,991 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 131
+2025-01-30 09:32:45,017 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,023 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,028 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,028 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,028 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s131.m4s
+2025-01-30 09:32:45,070 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s131.m4s HTTP Error:404 
+2025-01-30 09:32:45,086 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:45,096 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 132
+2025-01-30 09:32:45,132 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,143 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,143 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,143 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,143 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s132.m4s
+2025-01-30 09:32:45,190 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s132.m4s HTTP Error:404 
+2025-01-30 09:32:45,206 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:45,216 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 133
+2025-01-30 09:32:45,248 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,248 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,253 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,263 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,269 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s133.m4s
+2025-01-30 09:32:45,310 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s133.m4s HTTP Error:404 
+2025-01-30 09:32:45,326 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:45,337 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 134
+2025-01-30 09:32:45,368 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,379 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,389 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,400 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,400 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s134.m4s
+2025-01-30 09:32:45,442 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s134.m4s HTTP Error:404 
+2025-01-30 09:32:45,457 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:45,468 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 135
+2025-01-30 09:32:45,489 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,499 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,510 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,520 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,531 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s135.m4s
+2025-01-30 09:32:45,583 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s135.m4s HTTP Error:404 
+2025-01-30 09:32:45,599 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:45,609 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 136
+2025-01-30 09:32:45,636 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,646 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,651 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,662 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,672 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s136.m4s
+2025-01-30 09:32:45,725 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s136.m4s HTTP Error:404 
+2025-01-30 09:32:45,735 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:45,746 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 137
+2025-01-30 09:32:45,772 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,783 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,793 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,793 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,793 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s137.m4s
+2025-01-30 09:32:45,840 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s137.m4s HTTP Error:404 
+2025-01-30 09:32:45,855 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:45,861 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 138
+2025-01-30 09:32:45,887 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:45,897 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:45,908 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:45,918 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:45,929 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s138.m4s
+2025-01-30 09:32:45,981 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s138.m4s HTTP Error:404 
+2025-01-30 09:32:45,997 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,007 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 139
+2025-01-30 09:32:46,033 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,044 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,054 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,059 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,070 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s139.m4s
+2025-01-30 09:32:46,107 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s139.m4s HTTP Error:404 
+2025-01-30 09:32:46,112 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,117 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 140
+2025-01-30 09:32:46,149 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,159 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,170 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,170 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,170 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s140.m4s
+2025-01-30 09:32:46,212 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s140.m4s HTTP Error:404 
+2025-01-30 09:32:46,228 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,238 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 141
+2025-01-30 09:32:46,276 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,286 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,297 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,307 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,308 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s141.m4s
+2025-01-30 09:32:46,350 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s141.m4s HTTP Error:404 
+2025-01-30 09:32:46,365 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,376 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 142
+2025-01-30 09:32:46,407 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,413 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,413 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,413 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,413 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s142.m4s
+2025-01-30 09:32:46,455 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s142.m4s HTTP Error:404 
+2025-01-30 09:32:46,470 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,481 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 143
+2025-01-30 09:32:46,507 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,518 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,518 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,518 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,518 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s143.m4s
+2025-01-30 09:32:46,560 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s143.m4s HTTP Error:404 
+2025-01-30 09:32:46,575 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,586 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 144
+2025-01-30 09:32:46,617 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,628 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,638 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,649 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,654 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s144.m4s
+2025-01-30 09:32:46,691 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s144.m4s HTTP Error:404 
+2025-01-30 09:32:46,706 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,717 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 145
+2025-01-30 09:32:46,743 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,754 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,764 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,775 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,785 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s145.m4s
+2025-01-30 09:32:46,838 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s145.m4s HTTP Error:404 
+2025-01-30 09:32:46,854 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,864 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 146
+2025-01-30 09:32:46,890 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:46,900 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:46,911 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:46,911 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:46,911 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s146.m4s
+2025-01-30 09:32:46,953 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s146.m4s HTTP Error:404 
+2025-01-30 09:32:46,968 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:46,979 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 147
+2025-01-30 09:32:47,010 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:47,021 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:47,021 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:47,021 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:47,021 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s147.m4s
+2025-01-30 09:32:47,063 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s147.m4s HTTP Error:404 
+2025-01-30 09:32:47,078 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:47,089 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 148
+2025-01-30 09:32:47,115 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:47,125 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:47,125 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:47,130 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:47,136 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s148.m4s
+2025-01-30 09:32:47,183 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s148.m4s HTTP Error:404 
+2025-01-30 09:32:47,199 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:47,204 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 149
+2025-01-30 09:32:47,225 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:47,236 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:47,246 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:47,257 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:47,262 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s149.m4s
+2025-01-30 09:32:47,304 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s149.m4s HTTP Error:404 
+2025-01-30 09:32:47,304 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
+2025-01-30 09:32:47,304 - dash_client.py:248 - INFO -  MEDUSA: Processing the segment 150
+2025-01-30 09:32:47,315 - medusa.py:17 - INFO - Bitrates for adaptation 0: odict_keys([45226, 88783, 128503, 177437, 217761, 255865, 323047, 378355, 509091, 577751, 782553, 1008699, 1207152, 1473801, 2087347, 2409742, 2944291, 3340509, 3613836, 3936261])
+2025-01-30 09:32:47,320 - medusa.py:35 - INFO - Could not fetch VMAF values. list index out of range
+2025-01-30 09:32:47,330 - medusa.py:58 - INFO - Could not fetch size values. list index out of range
+2025-01-30 09:32:47,331 - dash_client.py:266 - INFO - MEDUSA results: Adaptation set id None -> bitrate = None
+2025-01-30 09:32:47,331 - dash_client.py:427 - INFO - MEDUSA: Segment URL = http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s150.m4s
+2025-01-30 09:32:47,372 - dash_client.py:108 - ERROR - Unable to download DASH Segment http://10.9.0.80/media/BigBuckBunny/4sec/media/BigBuckBunny/4sec/bunny_45226bps/BigBuckBunny_4s150.m4s HTTP Error:404 
+2025-01-30 09:32:47,388 - dash_client.py:445 - INFO - Downloaded failed. Terminating... 
